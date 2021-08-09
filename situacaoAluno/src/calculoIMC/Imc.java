@@ -14,7 +14,7 @@ public class Imc {
         pessoa.peso = dados.nextDouble();
         System.out.println("Qual a sua altura? ");
         pessoa.altura = dados.nextDouble();
-        Double calculoImc = pessoa.imc;
+        Double calculoImc = pessoa.imc();
 
 
 
